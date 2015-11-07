@@ -1,0 +1,13 @@
+name := "{}"
+
+organization := "{}"
+
+version := "{}"
+
+scalaVersion := "{}"
+
+val AkkaVersion = "{}"
+
+resolvers += Resolver.typesafeRepo("releases")
+
+libraryDependencies += "com.typesafe.akka" %% "akka-actor" % AkkaVersion

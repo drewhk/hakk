@@ -1,0 +1,12 @@
+[package]
+name = "hakk"
+version = "0.1.0"
+authors = ["drewhk <public@drewhk.com>"]
+
+[dependencies]
+toml = "0.1"
+
+[dependencies.clap]
+version = "1"
+default-features = false
+
