@@ -76,7 +76,7 @@ fn main() {
 
 	if install_mode {		
 		let new_defaults = Defaults {
-			org: matches.value_of("PROJECT_ORG"),
+			org: matches.value_of("PROJECT_ORG").or(defaults.org),
 			scala: scala_v,
 			akka: akka_v,
 		};
